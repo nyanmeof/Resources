@@ -1,11 +1,11 @@
-setfpscap(10)
+setfpscap(20)
 script_key = "43ZOF5GL4P66P5PDZP46B5HF73RPN6P47T4PHYHX63WPB6HZ7W2LPKNA"
 getgenv().Shutdown = true
 getgenv().Configs = {
     ["Team"] = "Marines",
     ["FPS Boost"] = {
         ["Enable"] = true,
-        ["FPS Cap"] = 10,
+        ["FPS Cap"] = 20,
     },
     ["Farm Boss Drops"] = {
         ["Enable"] = false,
