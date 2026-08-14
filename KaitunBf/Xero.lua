@@ -1,0 +1,61 @@
+script_key = "43ZOF5GL4P66P5PDZP46B5HF73RPN6P47T4PHYHX63WPB6HZ7W2LPKNA"
+getgenv().Shutdown = true
+getgenv().Configs = {
+    ["Team"] = "Marines",
+    ["FPS Boost"] = {
+        ["Enable"] = false,
+        ["FPS Cap"] = 10,
+    },
+    ["Farm Boss Drops"] = {
+        ["Enable"] = false,
+        ["When x2 Exp Expired"] = true
+    },
+    ["Hop"] = {
+        ["Enable"] = true,
+        ["Hop Find Tushita"] = true,
+        ["Hop Find Valkyrie Helm"] = true,
+        ["Hop Find Mirror Fractal"] = true,
+        ["Hop Find Darkbeard"] = true, -- For skull guitar
+        ["Hop Find Soul Reaper"] = true, -- For CDK
+        ["Hop Find Mirage"] = true, -- For pull lever
+        ["Hop Elite"] = true, -- For god chalice farming
+        ["Find Fruit"] = true, -- Will find 1m+ fruit to unlock swan door to access third sea
+    },
+    ["Farm Mastery"] = {
+        ["Enable"] = true,
+        ["Farm Mastery Weapons"] = {"Sword", "Gun", "Blox Fruit"}, -- Blox Fruit, Gun (left -> right: High -> Low Priority)
+        ["Swords To Farm"] = {"Cursed Dual Katana"},
+        ["Guns To Farm"] = {"Skull Guitar"},
+        ["Mastery Health (%)"] = 40 -- For Blox Fruit, Gun
+    },
+    ["Farm Config"] = {
+        ["First Farm At Sky"] = true,
+        ["Farm Bone Get x2 Exp"] = {
+            ["Enable"] = true,
+            ["Level"] = 1500 -- level to start farming
+        }
+    },
+    ["Trackstat"] = {
+        ["Enable"] = false,
+        ["Key"] = "2", -- Get from xerohub.click
+        ["Device"] = "msi" -- u can put any name here
+    },
+    ["Fruit to use for auto third sea"] = {}, -- example: {"Shadow-Shadow", "Buddha-Buddha"}
+    ["Get Fruits"] = true,
+    ["Auto Spawn rip_indra"] = true,
+    ["Auto Spawn Dough King"] = true,
+    ["Auto Pull Lever"] = false,
+    ["Auto Collect Berry"] = false,
+    ["Auto Evo Race"] = true,
+    ["Awaken Fruit"] = true,
+    ["Rainbow Haki"] = true,
+    ["Hop Player Near"] = true,
+    ["Skull Guitar"] = true,
+    ["Cursed Dual Katana"] = true,
+    ["Switch Melee"] = true,
+    ["Eat Fruit"] = "", -- leave blank for none, put the fruit name like this example: Smoke Fruit, T-Rex Fruit, ...
+    ["Snipe Fruit"] = "", -- leave blank for none, put the fruit name like this example: Smoke Fruit, T-Rex Fruit, ...
+    ["Lock Fragment"] = 0,
+    ["Buy Stuffs"] = true -- buso, geppo, soru, ken haki, ...
+}
+repeat task.wait(0.01) pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/chesrop/refs/heads/main/kaitun.lua"))() end) until getgenv().Check_Execute
