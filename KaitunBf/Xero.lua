@@ -4,7 +4,7 @@ getgenv().Shutdown = true
 getgenv().Configs = {
     ["Team"] = "Marines",
     ["FPS Boost"] = {
-        ["Enable"] = false,
+        ["Enable"] = true,
         ["FPS Cap"] = 10,
     },
     ["Farm Boss Drops"] = {
