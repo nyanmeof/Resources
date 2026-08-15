@@ -1,4 +1,5 @@
 setfpscap(10)
+game:GetService("RunService"):Set3dRenderingEnabled(false)
 script_key = "43ZOF5GL4P66P5PDZP46B5HF73RPN6P47T4PHYHX63WPB6HZ7W2LPKNA"
 getgenv().Shutdown = true
 getgenv().Configs = {
