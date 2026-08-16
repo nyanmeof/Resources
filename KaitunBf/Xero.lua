@@ -1,12 +1,12 @@
 repeat task.wait() until game:IsLoaded()
-setfpscap(15)
+setfpscap(10)
 script_key = "43ZOF5GL4P66P5PDZP46B5HF73RPN6P47T4PHYHX63WPB6HZ7W2LPKNA"
 getgenv().Shutdown = true
 getgenv().Configs = {
     ["Team"] = "Marines",
     ["FPS Boost"] = {
         ["Enable"] = true,
-        ["FPS Cap"] = 15,
+        ["FPS Cap"] = 10,
     },
     ["Farm Boss Drops"] = {
         ["Enable"] = false,
